@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Document</title>
   </head>
+
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="score-wrap">
+      <span class="scoreX"></span>
+      <span class="scoreO"></span>
+    </div>
+    <div class="container">
+      <div class="content"></div>
+    </div>
+    <span class="player"></span>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
